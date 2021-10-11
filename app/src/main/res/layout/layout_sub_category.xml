@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/subCategoryCardView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        card_view:cardCornerRadius="9dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_shirt" />
+
+            <TextView
+                android:id="@+id/textViewSubCatName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Cat Name"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textViewSubCatID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Cat ID"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textViewSubCatImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Cat Image"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textViewSubCatStatusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Cat ID"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textViewSubCatDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Cat ID"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textViewSubCatSlug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Cat ID"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

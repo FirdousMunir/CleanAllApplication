@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NF Clean</string>
+
+    <string name="server_client_id">68769924106-u67mt9olmv8uqf5o3k8i1rpn44ra0fm3.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">552865432625322</string>
+    <string name="fb_login_protocol_scheme">fb552865432625322</string>
+    <string name="api_key">AIzaSyA0B0ymwiRS-bP2m8kcaWcDE2-T8xVaZew</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="signup">Sign Up</string>
+    <string name="user_number">Your Number</string>
+    <string name="user_code">Enter Code</string>
+
+</resources>
